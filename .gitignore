@@ -1,0 +1,27 @@
+# Ignore build outputs
+/build/
+/out/
+*.class
+*.jar
+
+# Ignore IDE settings
+/.idea/
+/*.iml
+/.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency files
+/.gradle/
+/target/
+
+# Ignore logs and temporary files
+/logs/
+/*.log
+*.tmp
+
+# Ignore generated files
+/*.war
+/*.ear
