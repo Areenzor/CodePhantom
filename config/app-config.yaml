@@ -1,0 +1,16 @@
+app:
+  name: CodePhantom
+  version: 1.0.0
+
+logging:
+  level: info
+
+server:
+  web:
+    port: 8080
+  rest:
+    port: 8081
+
+analyzer:
+  fuzz:
+    maxIterations: 100
